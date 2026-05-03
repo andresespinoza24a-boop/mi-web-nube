@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi sitio en la nube</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url("https://picsum.photos/1200/800");
+      background-size: cover;
+      color: white;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: rgba(0,0,0,0.6);
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      background-color: rgba(0,0,0,0.8);
+    }
+
+    header img {
+      width: 80px;
+      margin-right: 10px;
+    }
+
+    main {
+      flex: 1;
+      padding: 20px;
+    }
+
+    footer {
+      background-color: rgba(0,0,0,0.8);
+      text-align: center;
+      padding: 10px;
+    }
+
+    a {
+      color: lightblue;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+      <img src="https://via.placeholder.com/80" alt="Logo">
+      <h2>Mi Sitio Web</h2>
+    </header>
+
+    <main>
+      <h3>Video recomendado</h3>
+      <p>
+        Da clic aquí para ver el video:
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+          Ver video
+        </a>
+      </p>
+    </main>
+
+    <footer>
+      <p>Materia: Conceptualización de servicios en la nube</p>
+      <p>Nombre: TU NOMBRE COMPLETO</p>
+      <p>Código: TU CÓDIGO</p>
+      <p>Correo: TU CORREO</p>
+    </footer>
+
+  </div>
+</body>
+</html>
